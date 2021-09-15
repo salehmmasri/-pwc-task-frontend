@@ -18,6 +18,7 @@
     width: 90%;
     justify-content: space-around;
     align-items: center;
+    padding: 35px;
 }
 
 .radios{
@@ -31,25 +32,46 @@
 }
 
 .radios_2 > *{
+    
     margin: 5px;
 }
 
-
+.radios_2{
+    
+display: flex;}
 #email {
     max-width: 400px;
     padding: 10px;
 }
+#search{
+    background-color: rgba(150, 212, 212, 0.4);
+}
+select{
+    background: rgba(150, 212, 212, 0.4) !important;
+}
+option{
+    background: rgba(150, 212, 212, 0.4) !important;
+    padding: 5px !important;
+
+}
 
 .resultBox {
     width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 55%;
-    overflow-y: scroll;
     padding: 20px;
 }
+table{
+    width: 80% !important;
+    margin-bottom: 50px;
 
+}
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  
+  
+.css-1mf6rgx{
+    text-align: start !important;
+}
 .controls {
     width: 90%;
     display: flex;

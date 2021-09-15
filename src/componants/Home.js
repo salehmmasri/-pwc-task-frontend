@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Text, Button, Flex } from "@chakra-ui/react";
 import '../styles/home.css';
-import { Radio, RadioGroup, Select } from "@chakra-ui/react";
+import { Radio, RadioGroup, Select, Table,Th,Tr } from "@chakra-ui/react";
 import { Input } from "@chakra-ui/react";
 import Employee from "./Employee";
 import { fetchData } from "../api/apiCalls";
@@ -102,7 +102,19 @@ function Home() {
 
             </Box>
 
-            <Box className="resultBox" >
+            <Table className="resultBox" >
+                <Tr>
+                    <Th>
+                        Name
+                    </Th>
+                    <Th>
+                        Email
+                    </Th>
+                    <Th>
+                        Department
+                    </Th>
+
+                </Tr>
                 {
                     result.results ?
                         (result.results.map((info) => {
@@ -113,7 +125,7 @@ function Home() {
                 }
 
 
-            </Box>
+            </Table>
 
             <Box className="controls">
                 <Button onClick={prevPage} disabled={page === 1}>
