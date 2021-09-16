@@ -1,3 +1,20 @@
+# Departments Management System
+
+
+## Overview
+
+___
+
+## Frontend for the Departments Management System
+
+___
+
+## Deployed link
+- [Frontend deployed on Vercel](https://pwc-task-frontend.vercel.app/)
+
+___
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
